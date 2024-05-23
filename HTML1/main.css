@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    margin: 0rem;
+    overflow: hidden;
+  }
+p {
+    color: white;
+    font-size: 10vw;
+    font-family: "Rubik", sans-serif;
+    margin: 0rem;
+    text-transform: uppercase;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+}
