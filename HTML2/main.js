@@ -1,4 +1,8 @@
-const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+var slider = document.getElementById("daslider");
+
+
 
 document.querySelector("h1").onmouseover = notevent => {
     let time = 0;
@@ -18,5 +22,5 @@ document.querySelector("h1").onmouseover = notevent => {
         if(time >= notevent.target.dataset.value.length + 3) clearInterval(interval);
 
         time += 1;
-    }, 50);
+    }, slider.value);
 }
