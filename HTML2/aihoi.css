@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     display: grid;
     place-items: center;
@@ -37,4 +38,45 @@ body {
 #rickroll {
     z-index: 2;
     opacity: 0;
+=======
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: black;
+    margin: 0rem;
+    overflow: hidden;
+}
+
+#Header {
+    color: white;
+    font-size: 40px;
+    font-family: "Space Mono", monospace;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    z-index: 1;
+}
+
+#buttona {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Space Mono", monospace;
+    position: absolute; 
+    top: 75%;
+    width: 10%;
+    z-index: 1;
+}
+
+#rickroll {
+    z-index: 2;
+    opacity: 0;
+>>>>>>> 521a4f0a5b9c6a3a42e94300a7ba10ac2f598f2a
 }
